@@ -1,0 +1,15 @@
+spirng: 
+ profiles: 
+  active; 
+  - dev
+--
+spirng: 
+ profiles: dev
+ application:
+  name:microservicecloud-config-dev
+  - dev
+--
+spirng: 
+ profiles: 
+ application:
+  name:microservicecloud-config-test
